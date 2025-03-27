@@ -4,7 +4,6 @@ public class Produto {
     private String nome;
     private int valor;
     private int quantidade;
-    ProdutoState produtoState;
 
     public Produto(String nome, int valor){
         this.nome = nome;
@@ -16,7 +15,7 @@ public class Produto {
         return this.nome;
     }
 
-    public int quantidade() {
+    public int quantidade(){
         return this.quantidade;
     }
 }
